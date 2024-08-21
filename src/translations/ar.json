@@ -1,7 +1,26 @@
 {
+  "Jobs": "الوظائف",
+  "EN": "English",
+  "AR": "العربية",
   "title": "إعلانات الوظائف",
-  "search_placeholder": "البحث عن وظائف...",
+  "search_placeholder": "عنوان الوظيفة...",
+  "search": "البحث",
+  "Recent Openings": "الوظائف الشاغرة مؤخرا",
   "view_details": "عرض التفاصيل",
   "no_results": "لم يتم العثور على وظائف.",
-  "loading": "جاري التحميل..."
+  "loading": "جاري التحميل...",
+  "Salary range": "نطاق الراتب",
+  "Major": "التخصص",
+  "Industry": "الصناعة",
+  "Career Level": "المستوى الوظيفي",
+  "Experience Required": "الخبرة المطلوبة",
+  "year(s) minimum": "الحد الأدنى من السنوات",
+  "Minimum GPA": "الحد الأدنى للمعدل التراكمي",
+  "Posted On": "تاريخ النشر",
+  "Description": "الوصف",
+  "Requirements": "المتطلبات",
+  "Summary": "الملخص",
+  "Required Skills": "المهارات المطلوبة",
+  "Languages": "اللغات",
+  "Apply": "التقديم"
 }
