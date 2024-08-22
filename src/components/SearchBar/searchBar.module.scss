@@ -1,0 +1,47 @@
+@import "../../styles/index.module.scss";
+
+.searchBarContainer {
+  position: sticky;
+  top: 5rem;
+  z-index: 99;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  border: 1px solid darkgrey;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 1rem;
+  padding-top: 1.5em;
+  gap: 1rem;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.textField {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  background: $white-color;
+}
+
+.searchButton {
+  background: $primary-color !important;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}

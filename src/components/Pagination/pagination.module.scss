@@ -1,0 +1,7 @@
+@import "../../styles/index.module.scss";
+
+.pagination {
+  @include flexbox($justifyContent: center);
+  margin-top: 3rem;
+  width: 100%;
+}
