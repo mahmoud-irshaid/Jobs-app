@@ -1,0 +1,19 @@
+@import "../../styles/index.module.scss";
+
+.loadingBox,
+.noJobBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 3rem;
+  background: transparent;
+}
+
+.contentContainer {
+  display: flex !important;
+
+  @media only screen and (max-width: 1030px) {
+    flex-direction: column-reverse !important;
+  }
+}
