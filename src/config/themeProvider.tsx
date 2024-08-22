@@ -24,6 +24,9 @@ const ThemeProviderWrapper: React.FC<ThemeProviderWrapperProps> = ({
 
   const theme = createTheme({
     direction,
+    typography: {
+      fontFamily: ["Cairo", "Roboto", "sans-serif"].join(", "),
+    },
   });
 
   document.body.dir = direction;
