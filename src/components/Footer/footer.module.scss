@@ -1,0 +1,11 @@
+@import "../../styles/index.module.scss";
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: $primary-color;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3em;
+  color: $white-color;
+}
