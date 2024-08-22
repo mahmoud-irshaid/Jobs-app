@@ -1,0 +1,40 @@
+@import "../../styles/index.module.scss";
+
+.jobCard {
+  @include flexbox($direction: column, $justifyContent: space-between);
+  min-height: 280px;
+  max-height: 280px;
+  margin-bottom: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) -5px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 0.625rem !important;
+  padding: 1.5em;
+}
+
+.jobTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.jobLocation {
+  border-bottom: 1px solid $lightgray-color;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.jobButton {
+  align-self: center;
+  button {
+    background: unset;
+    color: $primary-color;
+    border-color: $primary-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-self: center;
+
+    &:hover {
+      background: $primary-color;
+      color: $white-color;
+    }
+  }
+}

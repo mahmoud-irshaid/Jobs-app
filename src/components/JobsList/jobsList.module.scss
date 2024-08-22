@@ -1,0 +1,27 @@
+@import "../../styles/index.module.scss";
+
+.loadingBox,
+.noJobBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 3rem;
+  background: transparent;
+}
+
+.jobListContainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 600 !important;
+    margin-bottom: 3rem;
+  }
+}
+
+.gridContainer {
+  margin-top: 1rem;
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: "Cairo", "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.loadingBox,
+.noJobBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 3rem;
+  background: transparent;
+}
+
+.jobListContainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.jobListContainer h3 {
+  font-size: 1.75rem;
+  font-weight: 600 !important;
+  margin-bottom: 3rem;
+}
+
+.gridContainer {
+  margin-top: 1rem;
+}/*# sourceMappingURL=jobsList.module.css.map */
