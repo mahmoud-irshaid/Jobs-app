@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: "Cairo", "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.jobCard {
+  max-width: 750px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) -5px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 0.625rem !important;
+  padding: 1.5em;
+  margin-top: 3rem;
+}
+.jobCard .bodyText p {
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.jobCard strong {
+  font-weight: bold;
+}
+.jobCard ol,
+.jobCard ul {
+  margin-bottom: 1rem;
+}
+.jobCard ol li,
+.jobCard ul li {
+  margin-inline-start: 1rem;
+}
+
+.header {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.goldStar {
+  color: gold;
+}
+
+.bodyText {
+  margin-bottom: 1rem !important;
+}
+
+.sectionDivider {
+  margin: 2rem 0 !important;
+}
+
+.summary {
+  margin: 0 auto !important;
+  margin-top: 0.5rem !important;
+  border-radius: 8px !important;
+  border: 1px solid #d3d3d3;
+}
+
+.skillsContainer,
+.languagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.socialIcons {
+  margin-right: 1rem;
+}
+
+.btn {
+  background: #051274 !important;
+  color: #fff;
+}
+.btn:hover {
+  background: #051274 !important;
+  transition: all ease 1s;
+  transform: translateY(-0.3em);
+}/*# sourceMappingURL=jobDetails.module.css.map */

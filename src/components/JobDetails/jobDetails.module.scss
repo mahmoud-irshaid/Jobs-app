@@ -1,0 +1,88 @@
+@import "../../styles/index.module.scss";
+
+.jobCard {
+  max-width: 750px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) -5px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 0.625rem !important;
+  padding: 1.5em;
+  margin-top: 3rem;
+
+  .bodyText p {
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+  ol,
+  ul {
+    margin-bottom: 1rem;
+
+    li {
+      margin-inline-start: 1rem;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.goldStar {
+  color: gold;
+}
+
+.bodyText {
+  margin-bottom: 1rem !important;
+}
+
+.sectionDivider {
+  margin: 2rem 0 !important;
+}
+
+.summary {
+  margin: 0 auto !important;
+  margin-top: 0.5rem !important;
+  border-radius: 8px !important;
+  border: 1px solid $lightgray-color;
+}
+
+.skillsContainer,
+.languagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.socialIcons {
+  margin-right: 1rem;
+}
+
+.btn {
+  background: $primary-color !important;
+  color: $white-color;
+  &:hover {
+    background: $primary-color !important;
+    transition: all ease 1s;
+    transform: translateY(-0.3em);
+  }
+}

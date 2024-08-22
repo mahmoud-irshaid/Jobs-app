@@ -1,0 +1,42 @@
+@import "../../styles/index.module.scss";
+
+.loadingBox,
+.noJobBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 3rem;
+  background: transparent;
+}
+
+.contentContainer {
+  margin-top: 3rem !important;
+  width: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media only screen and (max-width: 1030px) {
+    max-height: 100%;
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: #e5f1f0;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10;
+    background-color: $primary-color;
+    background-clip: content-box;
+  }
+}
+
+.jobsList {
+  @include flexbox($direction: column, $alignItems: center);
+}
