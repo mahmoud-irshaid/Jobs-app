@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import JobPage from "./pages/JobPage";
+import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
+import JobPage from "./pages/JobPage/JobPage";
+import Footer from "./components/Footer/Footer";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/jobs/:jobId" element={<JobPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
