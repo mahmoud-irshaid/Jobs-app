@@ -1,0 +1,13 @@
+@import "../../styles/index.module.scss";
+
+.container {
+  padding: "0 3.5rem";
+
+  @media (min-width: 1200px) {
+    max-width: 1300px !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: "0 0";
+  }
+}
